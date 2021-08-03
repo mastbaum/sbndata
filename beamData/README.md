@@ -19,7 +19,7 @@ These matrices are required to produce flux uncertainties. There are two parts o
     - *beamData/UnisimHists/may06_nucleoninexsec_up_rgen610.6_flux.root*	
     - *beamData/UnisimHists/may06_nucleoninexsec_down_rgen610.6_flux.root*
     - *beamData/UnisimHists/may06_nucleonqexsec_up_rgen610.6_flux.root*	
-    - *beamData/UnisimHists/ may06_nucleonqexsec_down_rgen610.6_flux.root*
+    - *beamData/UnisimHists/may06_nucleonqexsec_down_rgen610.6_flux.root*
     - *beamData/UnisimHists/may06_nucleontotxsec_up_rgen610.6_flux.root*	
     - *beamData/UnisimHists/may06_nucleontotxsec_down_rgen610.6_flux.root*
     - *beamData/UnisimHists/expskin_nrtd1000_flux.root*
