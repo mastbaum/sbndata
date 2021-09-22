@@ -74,7 +74,7 @@ ACTION=SETUP
   setupRequired(root v6_22_08b -q +c7:+debug)
 
 FLAVOR=ANY
-QUALIFIERS=
+QUALIFIERS=c7:prof
 
 ACTION=SETUP
   setupEnv()
