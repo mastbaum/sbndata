@@ -1,0 +1,12 @@
+ FILE=TABLE
+ PRODUCT=sbndata
+ VERSION=v1.0
+
+ FLAVOR=NULL
+ QUALIFIERS = ""
+
+ ACTION=SETUP
+   setupEnv()
+   proddir()
+   EnvSet(SBNDATA_VERSION, ${UPS_PROD_VERSION} )
+  
