@@ -1,12 +1,22 @@
- FILE=TABLE
- PRODUCT=sbndata
- VERSION=v1.0
+File    = table
+Product = sbndata
 
- FLAVOR=NULL
- QUALIFIERS = ""
+#*************************************************
+# Starting Group definition
+Group:
 
- ACTION=SETUP
-   setupEnv()
-   proddir()
-   EnvSet(SBNDATA_VERSION, ${UPS_PROD_VERSION} )
-  
+Flavor     = ANY
+Qualifiers = ""
+
+
+Common:
+  Action = setup
+    prodDir()
+    setupEnv()
+    envSet(${UPS_PROD_NAME_UC}_VERSION, ${UPS_PROD_VERSION})
+
+    pathPrepend(FW_SEARCH_PATH, ${UPS_PROD_DIR} )
+
+End:
+# End Group definition
+#*************************************************
