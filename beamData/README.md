@@ -2,7 +2,7 @@
 
 `beamData/` directory contains histograms and covariance matrcies related to the Booster Neutrino Beam data and simulations 
 that are stored at uboone directory of version `v08_00_00_54`.
-These matrices are required to produce flux uncertainties. There are two parts of it
+These matrices are required to produce flux uncertainties. There are two parts of it: non-hadron production and hadron production.
 
 - `Unisim` for non-hadron production uncertainty; it uses 
   - CV simulation from BooBeamNT with parents redecayed 1000 times: *beamData/UnisimHists/may06_10kpot_ntrd1000_flux. root*
