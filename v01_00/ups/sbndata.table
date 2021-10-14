@@ -11,11 +11,12 @@ Qualifiers = ""
 
 Common:
   Action = setup
-    prodDir()
-    setupEnv()
-    envSet(${UPS_PROD_NAME_UC}_VERSION, ${UPS_PROD_VERSION})
+  	 setupEnv()
+	 proddir()
+   	 EnvSet(SBNDATA_VERSION, ${UPS_PROD_VERSION} )
+ 	 EnvSet(SBNDATA_INC, ${UPS_PROD_DIR}/include )
+	 pathPrepend(PATH, ${UPS_PROD_DIR}/bin )
 
-    pathPrepend(FW_SEARCH_PATH, ${UPS_PROD_DIR} )
 
 End:
 # End Group definition
