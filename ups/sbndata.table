@@ -1,0 +1,23 @@
+File    = table
+Product = sbndata
+
+#*************************************************
+# Starting Group definition
+Group:
+
+Flavor     = ANY
+Qualifiers = ""
+
+
+Common:
+  Action = setup
+  	 setupEnv()
+	 proddir()
+   	 EnvSet(SBNDATA_VERSION, ${UPS_PROD_VERSION} )
+ 	 EnvSet(SBNDATA_INC, ${UPS_PROD_DIR}/include )
+	 pathPrepend(PATH, ${UPS_PROD_DIR}/bin )
+
+
+End:
+# End Group definition
+#*************************************************
