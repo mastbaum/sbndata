@@ -14,7 +14,7 @@ Common:
   	 setupEnv()
 	 proddir()
    	 EnvSet(SBNDATA_VERSION, ${UPS_PROD_VERSION} )
- 	 EnvSet(SBNDATA_INC, ${UPS_PROD_DIR}/include )
+ 	 EnvSet(SBNDATA_DIR, ${UPS_PROD_DIR}/ )
 	 pathPrepend(PATH, ${UPS_PROD_DIR}/bin )
 
 
