@@ -1,0 +1,6 @@
+Input files for Geant4Reweight systematics.
+
+These files are specific to the Geant4 models, and must match those used in
+the simulation. To generated new ROOT files, see the Geant4Reweight
+documentation for usage of the G4CrossSection and G4Cascade utilities.
+
